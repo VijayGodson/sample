@@ -6,7 +6,6 @@
 <packaging>jar</packaging>
 <version>1.0.1</version>
 <name>sampleproject</name>
-
 <dependencies>
    <dependency>
 	<groupId>junit</groupId>
@@ -19,20 +18,11 @@
 	<maven.compiler.source>1.8</maven.compiler.source>
 	<maven.compiler.target>1.8</maven.compiler.target>
 </properties>
-<repositories>
-    <repository>
-      <id>centralproxy</id>
-      <url>http://ec2-18-216-1-106.us-east-2.compute.amazonaws.com:8081/repository/centralproxy/</url>
-    </repository>
-  </repositories>
 <distributionManagement>
-<snapshotRepository>
-      <id>mysnapshot</id>
-      <url>http://ec2-18-216-1-106.us-east-2.compute.amazonaws.com:8081/repository/mysnapshot/</url>
-    </snapshotRepository>
-    <repository>
-      <id>myrelease</id>
-      <url>http://ec2-18-216-1-106.us-east-2.compute.amazonaws.com:8081/repository/myrelease/</url>
-    </repository>
-</distributionManagement>
+      <repository>
+        <id>artifactory</id>
+        <name>HelloMaven-release</name>
+        <url>file</url>
+       </repository>
+    </distributionManagement>
 </project>
