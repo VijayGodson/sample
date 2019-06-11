@@ -22,17 +22,17 @@
 <repositories>
     <repository>
       <id>centralproxy</id>
-      <url>http://ec2-18-222-112-65.us-east-2.compute.amazonaws.com:8081/repository/centralproxy/</url>
+      <url>http://ec2-18-216-1-106.us-east-2.compute.amazonaws.com:8081/repository/centralproxy/</url>
     </repository>
   </repositories>
 <distributionManagement>
 <snapshotRepository>
       <id>mysnapshot</id>
-      <url>http://ec2-18-222-112-65.us-east-2.compute.amazonaws.com:8081/repository/mysnapshot/</url>
+      <url>http://ec2-18-216-1-106.us-east-2.compute.amazonaws.com:8081/repository/mysnapshot/</url>
     </snapshotRepository>
     <repository>
       <id>myrelease</id>
-      <url>http://ec2-18-222-112-65.us-east-2.compute.amazonaws.com:8081/repository/myrelease/</url>
+      <url>http://ec2-18-216-1-106.us-east-2.compute.amazonaws.com:8081/repository/myrelease/</url>
     </repository>
 </distributionManagement>
 </project>
