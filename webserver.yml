@@ -9,5 +9,5 @@
   - name: Install apache
     apt:
       name: apache2
-      state: latest
+      state: absent
       update_cache: yes
