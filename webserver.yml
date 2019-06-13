@@ -1,5 +1,5 @@
 ---
-- hosts: webserver
+- hosts: 172.31.42.210
   remote_user: ubuntu
   become_user: root
   become_method: sudo
