@@ -34,4 +34,4 @@
 
   - name:
     ansible-galaxy:
-    name: geerlingguy.docker
+      name: geerlingguy.docker
