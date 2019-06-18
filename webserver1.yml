@@ -23,7 +23,7 @@
 
   - name: gnupg-agent
     apt:
-      name: gnup-agent
+      name: gnupg-agent
       state: latest
 
   - name: software-properties-common
