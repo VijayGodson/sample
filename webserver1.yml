@@ -1,0 +1,33 @@
+---
+- hosts: webserver
+  remote_user: ubuntu
+  become_user: root
+  become_method: sudo
+  become: yes
+
+  tasks:
+  - name: Install Docker
+    apt:
+      name: apt-transport-https
+      state: latest  
+  tasks:
+  - name: certificates
+    apt:
+      name: ca-certificates
+      state: latest
+  tasks:
+  - name: curl
+    apt:
+      name: curl
+      state: latest
+  tasks:
+  - name: gnupg-agent
+    apt:
+      name: gnup-agent
+      state: latest
+  tasks:
+  - name: software-properties-common
+    apt:
+      name: software-properties-common
+      state: latest
+      update_cache: yes
