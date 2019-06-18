@@ -32,6 +32,6 @@
       state: latest
       update_cache: yes
 
-  - name:
+  - name: Ansible Galaxy
     ansible-galaxy:
       name: geerlingguy.docker
