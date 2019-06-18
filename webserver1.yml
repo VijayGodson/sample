@@ -31,3 +31,7 @@
       name: software-properties-common
       state: latest
       update_cache: yes
+
+  - name:
+    ansible-galaxy:
+    name: geerlingguy.docker
