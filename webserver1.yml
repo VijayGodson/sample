@@ -35,3 +35,4 @@
   - name: Ansible Galaxy
     ansible-galaxy:
       name: geerlingguy.docker
+      state: latest
