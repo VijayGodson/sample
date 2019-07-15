@@ -6,6 +6,4 @@ RUN apt-get -y install libapache2-mod-php php-mysql
 LABEL owner="vijay"
 ENV dbname="wpdb"
 COPY wordpress/ /var/www/html/
-RUN usermod -a -G docker jenkins
-USER jenkins
 CMD ["apachectl -D FOREGROUND]
