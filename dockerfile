@@ -5,5 +5,5 @@ RUN apt-get -y install apache2
 RUN apt-get -y install libapache2-mod-php php-mysql
 LABEL owner="vijay"
 ENV dbname="wpdb"
-COPY /root/WordPress/ /var/www/html/ 
+COPY /root/wordPress/ /var/www/html/ 
 CMD ["apachectl -D FOREGROUND]
